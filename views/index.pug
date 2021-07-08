@@ -1,0 +1,49 @@
+doctype html
+html
+  head
+    title Octave Music Academy 
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+       ul 
+          div#logo 
+             img(src="static/logo.jpg", alt="", srcset="")  
+             |  OMA      
+          li #[a(href="/") HOME  ] 
+          li #[a(href="/") ABOUT  ] 
+          li #[a(href="/") SERVICES  ] 
+          li #[a(href="/") CLASS INFO  ] 
+          li #[a(href="/") CONTACT US] 
+
+    Section#introsection 
+        div Welcome to Octave Music Academy 
+        div.small "Where words fail, music speaks."  
+
+    Section#specialitysection  
+        h2  Our Specialities 
+        div.card
+          img(src="static/card1.jpg", alt="", srcset="")
+          h3  Professionaly trained teachers
+          p.center Over 10 professionaly trained teachers with tons of experience in the field of music each having their own specific expertise.
+        div.card
+          img(src="static/card2.png", alt="", srcset="")
+          h3  Over 20 instruments available
+          p.center Over 20 different instruments available to learn from our highly skilled experts including guitar,piano,drums,flute etc.
+        div.card
+          img(src="static/card3.jpg", alt="", srcset="")
+          h3  Flexible course timings
+          p.center Design your own schedule and learn at your own pace with our flexible course timings system throughout the week.
+
+    Section#sponsorssection  
+        h2     Our Sponsors  
+        div#sponsors 
+          img(src="static/logo1.png", alt="", class="spimage")
+          img(src="static/logo2.png", alt="", class="spimage")
+          img(src="static/logo4.png", alt="", class="spimage")
+          img(src="static/logo5.png", alt="", class="spimage")
+    footer#footer 
+        |  Copyright © OctaveMusicAcademy.com | All Rights Reserved!    
+
+    script
+      include ../static/index.js

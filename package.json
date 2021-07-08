@@ -1,0 +1,16 @@
+{
+  "name": "music-academy",
+  "version": "1.0.0",
+  "description": "Best music School in Ghaziabad",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aryan Bhardwaj",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.9",
+    "pug": "^3.0.2"
+  }
+}
