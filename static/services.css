@@ -1,0 +1,33 @@
+.mainwrapper h1{
+    text-align: center;
+    font-size: 43px;
+}
+
+/* .mainwrapper{
+    
+} */
+.mainwrapper::before{
+    content: "";
+  background: url("bg6.jpg") no-repeat center center/cover;
+  /* opacity: 1; */
+  width : 100%;
+height: 85%;
+  position: absolute;
+  z-index: -1; 
+  opacity: 0.6;  
+}
+.wrapper{
+    height: 60vh;
+    width: 70vw;
+    border: 4px solid black;
+    margin: 10px auto;
+    margin-bottom: 74px;
+}
+#para{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 60px auto;
+    color: rgb(0, 0, 85);
+    font-size: 20px;
+}
